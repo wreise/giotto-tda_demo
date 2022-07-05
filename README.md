@@ -1,50 +1,16 @@
-![logo](https://raw.githubusercontent.com/giotto-ai/giotto-tda/master/doc/images/tda_logo.svg)
+# A tutorial on persistent homoloy with GUDHI and giotto-tda
 
-# Giotto-tda Jupyter demo, POSTECH MINDS workshop on TDA & ML (9 July 2021)
-
-## What is it?
-
-The purpose of this repository is to showcase the usage of the the [Giotto-tda](https://giotto-ai.github.io/gtda-docs) Python library. Have a look at our [NeurIPS workshop paper](https://openreview.net/forum?id=fjQtZJOCTXf) for more information.
-
+This repository contains supporting material for a tutorial during [**the 2nd Young Topologist Seminar** in AI and biological sciences](https://www.bimsa.cn/newsinfo/647247.html).
 
 ## Getting started
 
-Clone this repository on your local machine by running
+Clone this repository on your local machine and checkout the `tys22` branch by running
 ```
-git clone https://github.com/ulupo/giotto-tda_demo_POSTECH_MINDS.git
+git clone https://github.com/wreise/gudhi_giotto_ph_demo
+git checkout tys22
 ```
 and move inside the root folder by running
 ```
-cd giotto-tda_demo_POSTECH_MINDS
+cd gudhi_giotto_ph_demo
 ```
 
-### If you use ``conda``
-
-Spin up a ``conda`` virtual environment, activate it and install the required libraries:
-
-```
-conda create --name gtda_env python=3.9
-conda activate gtda_env
-conda install jupyter
-python -m pip install -U -r requirements.txt
-```
-
-### If you use Python's ``venv``
-
-Create and activate a Python 3 virtual environment with the in-built ``venv`` as explained in [the official Python API reference](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/#creating-a-virtual-environment). Then, from that environment, run
-```
-python -m pip install -U -r requirements.txt
-```
-
-### JupyterLab setup
-To see the Plotly graphs in JupyterLab, some [extra steps](https://plotly.com/python/getting-started/#jupyterlab-support) might be required.
-
-
-Enjoy!
-
-## Requirements
-In order to run the notebook, the following python packages are required:
-
-- jupyter
-- giotto-tda>=0.5.0
-- pandas>=0.25.1
